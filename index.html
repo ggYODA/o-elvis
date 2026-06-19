@@ -48,6 +48,17 @@
 
 <main>
   <section id="menu" class="menu-section">
+
+    <!-- Фоновый слайдшоу -->
+    <div class="menu-bg" aria-hidden="true">
+      <div class="menu-bg-slide active" style="background-image:url('images/facade.png')"></div>
+      <div class="menu-bg-slide" style="background-image:url('images/place-1.png')"></div>
+      <div class="menu-bg-slide" style="background-image:url('images/place-2.png')"></div>
+      <div class="menu-bg-slide" style="background-image:url('images/place-3.png')"></div>
+    </div>
+    <div class="menu-bg-overlay" aria-hidden="true"></div>
+
+    <div class="menu-content">
     <p class="section-label">МЕНЮ</p>
 
     <!-- ШАШЛЫКИ -->
@@ -244,6 +255,7 @@
       </div>
     </div>
 
+    </div><!-- /menu-content -->
   </section>
 </main>
 
@@ -318,5 +330,17 @@
   <p class="copyright">© 2025 Ο Έλβις · Ermou 112, Афины</p>
 </footer>
 
+<script>
+(function(){
+  var slides = document.querySelectorAll('.menu-bg-slide');
+  if(slides.length < 2) return;
+  var cur = 0;
+  setInterval(function(){
+    slides[cur].classList.remove('active');
+    cur = (cur + 1) % slides.length;
+    slides[cur].classList.add('active');
+  }, 7000);
+})();
+</script>
 </body>
 </html>
