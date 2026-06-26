@@ -1,22 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="el">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ο Έλβις — Σουβλάκι στα Κάρβουνα</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-lang="el">
 
 <header class="site-header">
   <div class="logo">Ο <span>ΕΛΒΙΣ</span></div>
   <nav class="nav">
-    <a href="#menu">Меню</a>
-    <a href="#about">О нас</a>
-    <a href="#contact">Контакты</a>
+    <a href="#menu" data-i18n="nav-menu">Μενού</a>
+    <a href="#about" data-i18n="nav-about">Σχετικά</a>
+    <a href="#contact" data-i18n="nav-contact">Επικοινωνία</a>
   </nav>
+  <div class="lang-switcher" id="langSwitcher">
+    <button class="lang-btn" id="langBtn" aria-label="Language" title="Αλλαγή γλώσσας / Change language">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    </button>
+    <div class="lang-dropdown" id="langDropdown">
+      <button class="lang-option active" data-lang="el">🇬🇷 Ελληνικά</button>
+      <button class="lang-option" data-lang="hy">🇦🇲 Հայերեն</button>
+      <button class="lang-option" data-lang="en">🇬🇧 English</button>
+      <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+      <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+      <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+      <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+      <button class="lang-option" data-lang="ro">🇷🇴 Română</button>
+      <button class="lang-option" data-lang="uk">🇺🇦 Українська</button>
+    </div>
+  </div>
   <div class="header-actions">
-    <a href="https://www.e-food.gr/delivery/menu/o-elvis" class="btn-order" target="_blank" rel="noopener">Заказать</a>
+    <a href="https://www.e-food.gr/delivery/menu/o-elvis" class="btn-order" target="_blank" rel="noopener" data-i18n="nav-order">Παραγγελία</a>
     <a href="https://www.instagram.com/oelvis.peristeri" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
     </a>
@@ -30,20 +46,20 @@
   <img src="images/exterior.png" alt="Ο Έλβις" class="hero-img">
   <div class="hero-overlay">
     <div class="hero-logo">Ο <span>ΕΛΒΙΣ</span></div>
-    <p class="hero-sub">Σουβλάκι · Καλαμάκι · Κεμπάπ</p>
-    <p class="hero-desc">Готовим на углях — только гриль, только вкус</p>
+    <p class="hero-sub" data-i18n="hero-sub">Σουβλάκι · Καλαμάκι · Κεμπάπ</p>
+    <p class="hero-desc" data-i18n="hero-desc">Μαγειρεύουμε στα κάρβουνα — μόνο σχάρα, μόνο γεύση</p>
     <a href="https://www.e-food.gr/delivery/menu/o-elvis" class="btn-hero-order" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="vertical-align:middle;margin-right:7px"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>Заказать с доставкой
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="vertical-align:middle;margin-right:7px"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg><span data-i18n="hero-order-btn">Παραγγελία με Ντελίβερι</span>
     </a>
   </div>
 </section>
 
 <div class="info-strip">
-  <div class="info-item">⭐ 4.4 &nbsp;·&nbsp; 4 254 отзыва на Google</div>
+  <div class="info-item" data-i18n="info-reviews">⭐ 4.4 · 4 254 αξιολογήσεις στο Google</div>
   <div class="info-sep">|</div>
-  <div class="info-item">🔥 На углях · Быстро · Свежо</div>
+  <div class="info-item" data-i18n="info-grill">🔥 Στα κάρβουνα · Γρήγορα · Φρέσκα</div>
   <div class="info-sep">|</div>
-  <div class="info-item">🕐 Ежедневно 11:00 – 01:00</div>
+  <div class="info-item" data-i18n="info-hours">🕐 Καθημερινά 11:00 – 01:00</div>
 </div>
 
 <main>
@@ -59,149 +75,167 @@
     <div class="menu-bg-overlay" aria-hidden="true"></div>
 
     <div class="menu-content">
-    <p class="section-label">МЕНЮ</p>
+    <p class="section-label" data-i18n="section-menu">ΜΕΝΟΥ</p>
 
-    <!-- ШАШЛЫКИ -->
+    <!-- ΣΟΥΒΛΑΚΙΑ / SKEWERS -->
     <div class="category">
-      <h2 class="cat-title">Шашлыки</h2>
+      <h2 class="cat-title" data-i18n="cat-skewers">Σουβλάκια</h2>
       <div class="menu-list">
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Свиной шашлык</div>
-            <div class="dish-meta">120 г · с хлебом и картофелем фри</div>
+            <div class="dish-name" data-i18n="dish-pork-skewer">Καλαμάκι χοιρινό</div>
+            <div class="dish-meta" data-i18n="meta-skewer-120g">120 γρ με ψωμί και τηγανητές πατάτες</div>
             <div class="dish-price">2,80 €</div>
           </div>
-          <img src="images/pork-skewer.png" alt="Свиной шашлык" class="dish-img">
+          <img src="images/pork-skewer.png" alt="Pork Skewer" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Куриный шашлык</div>
-            <div class="dish-meta">120 г · с хлебом и картофелем фри</div>
+            <div class="dish-name" data-i18n="dish-chicken-skewer">Καλαμάκι κοτόπουλο</div>
+            <div class="dish-meta" data-i18n="meta-skewer-120g">120 γρ με ψωμί και τηγανητές πατάτες</div>
             <div class="dish-price">2,80 €</div>
           </div>
-          <img src="images/chicken-skewer.png" alt="Куриный шашлык" class="dish-img">
+          <img src="images/chicken-skewer.png" alt="Chicken Skewer" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Кебаб</div>
-            <div class="dish-meta">120 г · с хлебом и картофелем фри</div>
+            <div class="dish-name" data-i18n="dish-kebab">Κεμπάπ</div>
+            <div class="dish-meta" data-i18n="meta-skewer-120g">120 γρ με ψωμί και τηγανητές πατάτες</div>
             <div class="dish-price">2,80 €</div>
           </div>
-          <img src="images/kebab.png" alt="Кебаб" class="dish-img">
+          <img src="images/kebab.png" alt="Kebab" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Колбаса с луком-пореем</div>
-            <div class="dish-meta">120 г · с хлебом и картофелем фри</div>
+            <div class="dish-name" data-i18n="dish-sausage">Λουκάνικο με πράσο</div>
+            <div class="dish-meta" data-i18n="meta-skewer-120g">120 γρ με ψωμί και τηγανητές πατάτες</div>
             <div class="dish-price">2,60 €</div>
           </div>
-          <img src="images/sausage.png" alt="Колбаса с луком-пореем" class="dish-img">
+          <img src="images/sausage.png" alt="Sausage with Leek" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Бараний шашлык</div>
-            <div class="dish-meta">120 г · с хлебом и картофелем фри</div>
+            <div class="dish-name" data-i18n="dish-lamb-skewer">Καλαμάκι πρόβειο</div>
+            <div class="dish-meta" data-i18n="meta-skewer-120g">120 γρ με ψωμί και τηγανητές πατάτες</div>
             <div class="dish-price">3,30 €</div>
           </div>
-          <img src="images/lamb-skewer.png" alt="Бараний шашлык" class="dish-img">
+          <img src="images/lamb-skewer.png" alt="Lamb Skewer" class="dish-img">
         </article>
 
       </div>
     </div>
 
-    <!-- ПОРЦИИ -->
+    <!-- ΜΕΡΙΔΕΣ / PORTIONS -->
     <div class="category">
-      <h2 class="cat-title">Порции</h2>
+      <h2 class="cat-title" data-i18n="cat-portions">Μερίδες</h2>
       <div class="menu-list">
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Порция панчетты</div>
-            <div class="dish-meta">3 шт. · с картофелем фри</div>
+            <div class="dish-name" data-i18n="dish-pancetta">Πανσέτα μερίδα</div>
+            <div class="dish-meta" data-i18n="meta-pancetta-3pcs">3 τεμ. με τηγανητές πατάτες</div>
             <div class="dish-price">8,50 €</div>
           </div>
-          <img src="images/pancetta.png" alt="Порция панчетты" class="dish-img">
+          <img src="images/pancetta.png" alt="Pancetta" class="dish-img">
         </article>
 
       </div>
     </div>
 
-    <!-- ГАРНИРЫ И СОУСЫ -->
+    <!-- ΣΥΝΟΔΕΥΤΙΚΑ & ΣΑΛΤΣΕΣ / SIDES & SAUCES -->
     <div class="category">
-      <h2 class="cat-title">Гарниры и соусы</h2>
+      <h2 class="cat-title" data-i18n="cat-sides">Συνοδευτικά &amp; Σάλτσες</h2>
       <div class="menu-list">
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Картофель фри</div>
-            <div class="dish-meta">Большая порция</div>
+            <div class="dish-name" data-i18n="dish-fries">Πατάτες τηγανητές</div>
+            <div class="dish-meta" data-i18n="meta-fries-large">Μεγάλη μερίδα</div>
             <div class="dish-price">3,50 €</div>
           </div>
-          <img src="images/fries.png" alt="Картофель фри" class="dish-img">
+          <img src="images/fries.png" alt="Fries" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Традиционная пита</div>
-            <div class="dish-meta">1 шт.</div>
+            <div class="dish-name" data-i18n="dish-pita-trad">Πίτα παραδοσιακή</div>
+            <div class="dish-meta" data-i18n="meta-pita-1pc">1 τεμ.</div>
             <div class="dish-price">0,70 €</div>
           </div>
-          <img src="images/pita.png" alt="Традиционная пита" class="dish-img">
+          <img src="images/pita.png" alt="Traditional Pita" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Цельнозерновая пита</div>
-            <div class="dish-meta">1 шт.</div>
+            <div class="dish-name" data-i18n="dish-pita-whole">Πίτα ολικής άλεσης</div>
+            <div class="dish-meta" data-i18n="meta-pita-1pc">1 τεμ.</div>
             <div class="dish-price">0,70 €</div>
           </div>
-          <img src="images/pita.png" alt="Цельнозерновая пита" class="dish-img">
+          <img src="images/pita.png" alt="Wholegrain Pita" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Кукурузная пита</div>
-            <div class="dish-meta">1 шт.</div>
+            <div class="dish-name" data-i18n="dish-pita-corn">Πίτα καλαμποκιού</div>
+            <div class="dish-meta" data-i18n="meta-pita-1pc">1 τεμ.</div>
             <div class="dish-price">0,70 €</div>
           </div>
-          <img src="images/pita.png" alt="Кукурузная пита" class="dish-img">
+          <img src="images/pita.png" alt="Corn Pita" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Йогуртовый соус «Элвис»</div>
-            <div class="dish-meta">70 мл</div>
+            <div class="dish-name" data-i18n="dish-yogurt-sauce">Σως γιαουρτιού Έλβις</div>
+            <div class="dish-meta" data-i18n="meta-70ml">70 ml</div>
             <div class="dish-price">0,50 €</div>
           </div>
-          <img src="images/yogurt-sauce.png" alt="Йогуртовый соус" class="dish-img">
+          <img src="images/yogurt-sauce.png" alt="Yogurt Sauce" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Соус барбекю</div>
-            <div class="dish-meta">70 мл</div>
+            <div class="dish-name" data-i18n="dish-bbq-sauce">Σως BBQ</div>
+            <div class="dish-meta" data-i18n="meta-70ml">70 ml</div>
             <div class="dish-price">0,50 €</div>
           </div>
-          <img src="images/bbq-sauce.png" alt="Соус барбекю" class="dish-img">
+          <img src="images/bbq-sauce.png" alt="BBQ Sauce" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="dish-bbq-golden">Σως BBQ χρυσή</div>
+            <div class="dish-meta" data-i18n="meta-70ml">70 ml</div>
+            <div class="dish-price">0,50 €</div>
+          </div>
+          <img src="images/bbq-sauce-golden.png" alt="Golden BBQ Sauce" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="dish-mustard-honey">Σως μουστάρδα-μέλι</div>
+            <div class="dish-meta" data-i18n="meta-70ml">70 ml</div>
+            <div class="dish-price">0,50 €</div>
+          </div>
+          <img src="images/mustard-honey-sauce.png" alt="Honey-Mustard Sauce" class="dish-img">
         </article>
 
       </div>
     </div>
 
-    <!-- НАПИТКИ -->
+    <!-- ΠΟΤΑ / DRINKS -->
     <div class="category">
-      <h2 class="cat-title">Напитки</h2>
+      <h2 class="cat-title" data-i18n="cat-drinks">Ποτά</h2>
       <div class="menu-list">
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Coca-Cola</div>
-            <div class="dish-meta">330 мл · банка</div>
+            <div class="dish-name" data-i18n="drink-cola-name">Coca-Cola</div>
+            <div class="dish-meta" data-i18n="drink-cola-330-meta">330 ml κουτί</div>
             <div class="dish-price">2,00 €</div>
           </div>
           <img src="images/coca-cola-330.png" alt="Coca-Cola 330ml" class="dish-img">
@@ -209,8 +243,8 @@
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Coca-Cola Zero</div>
-            <div class="dish-meta">330 мл · банка</div>
+            <div class="dish-name" data-i18n="drink-cola-zero-name">Coca-Cola Zero</div>
+            <div class="dish-meta" data-i18n="drink-cola-330-meta">330 ml κουτί</div>
             <div class="dish-price">2,00 €</div>
           </div>
           <img src="images/coca-cola-zero-330.png" alt="Coca-Cola Zero 330ml" class="dish-img">
@@ -218,8 +252,17 @@
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Coca-Cola</div>
-            <div class="dish-meta">500 мл · бутылка</div>
+            <div class="dish-name" data-i18n="drink-cola-zero-caf-name">Coca-Cola Zero χωρίς καφεΐνη</div>
+            <div class="dish-meta" data-i18n="drink-cola-330-meta">330 ml κουτί</div>
+            <div class="dish-price">2,00 €</div>
+          </div>
+          <img src="images/cola-zero-caffeine-330.png" alt="Coca-Cola Zero no caffeine" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-cola-name">Coca-Cola</div>
+            <div class="dish-meta" data-i18n="drink-cola-500-meta">500 ml μπουκάλι</div>
             <div class="dish-price">2,50 €</div>
           </div>
           <img src="images/coca-cola-500.png" alt="Coca-Cola 500ml" class="dish-img">
@@ -227,8 +270,8 @@
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Coca-Cola Zero</div>
-            <div class="dish-meta">500 мл · бутылка</div>
+            <div class="dish-name" data-i18n="drink-cola-zero-name">Coca-Cola Zero</div>
+            <div class="dish-meta" data-i18n="drink-cola-500-meta">500 ml μπουκάλι</div>
             <div class="dish-price">2,50 €</div>
           </div>
           <img src="images/coca-cola-zero-500.png" alt="Coca-Cola Zero 500ml" class="dish-img">
@@ -236,20 +279,92 @@
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Вода «Андания»</div>
-            <div class="dish-meta">500 мл · природная минеральная</div>
-            <div class="dish-price">0,50 €</div>
+            <div class="dish-name" data-i18n="drink-fanta-orange-name">Fanta πορτοκαλάδα</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
+            <div class="dish-price">2,00 €</div>
           </div>
-          <img src="images/water.png" alt="Вода Андания" class="dish-img">
+          <img src="images/fanta-orange-330.png" alt="Fanta Orange" class="dish-img">
         </article>
 
         <article class="menu-item">
           <div class="menu-info">
-            <div class="dish-name">Пиво Alfa</div>
-            <div class="dish-meta">330 мл</div>
+            <div class="dish-name" data-i18n="drink-fanta-lemon-name">Fanta λεμονάδα</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
+            <div class="dish-price">2,00 €</div>
+          </div>
+          <img src="images/fanta-lemon-330.png" alt="Fanta Lemon" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-fanta-blue-name">Fanta μπλε χωρίς ανθρακικό</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
+            <div class="dish-price">2,00 €</div>
+          </div>
+          <img src="images/fanta-blue-330.png" alt="Fanta Blue" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-sprite-name">Sprite</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
+            <div class="dish-price">2,00 €</div>
+          </div>
+          <img src="images/sprite-330.png" alt="Sprite" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-sprite-zero-name">Sprite Zero</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
+            <div class="dish-price">2,00 €</div>
+          </div>
+          <img src="images/sprite-zero-330.png" alt="Sprite Zero" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-water-avra-name">Νερό AVRA</div>
+            <div class="dish-meta" data-i18n="drink-water-500-meta">500 ml φυσικό μεταλλικό</div>
+            <div class="dish-price">0,50 €</div>
+          </div>
+          <img src="images/avra-water-500.png" alt="AVRA Water 500ml" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-water-avra-name">Νερό AVRA</div>
+            <div class="dish-meta" data-i18n="drink-water-1l-meta">1 l φυσικό μεταλλικό</div>
+            <div class="dish-price">1,00 €</div>
+          </div>
+          <img src="images/avra-water-1l.png" alt="AVRA Water 1L" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-sparkling-name">Ανθρακούχο νερό AVRA</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
+            <div class="dish-price">2,00 €</div>
+          </div>
+          <img src="images/avra-sparkling-330.png" alt="AVRA Sparkling Water" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-alfa-name">Μπύρα Alfa</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
             <div class="dish-price">2,50 €</div>
           </div>
-          <img src="images/alfa-beer.png" alt="Пиво Alfa" class="dish-img">
+          <img src="images/alfa-beer.png" alt="Alfa Beer" class="dish-img">
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-info">
+            <div class="dish-name" data-i18n="drink-stella-name">Stella Artois</div>
+            <div class="dish-meta" data-i18n="drink-330-meta">330 ml</div>
+            <div class="dish-price">2,50 €</div>
+          </div>
+          <img src="images/stella-artois-330.png" alt="Stella Artois" class="dish-img">
         </article>
 
       </div>
@@ -260,39 +375,39 @@
 </main>
 
 <section id="about" class="about-section">
-  <p class="section-label">О ЗАВЕДЕНИИ</p>
+  <p class="section-label" data-i18n="section-about">ΓΙΑ ΜΑΣ</p>
   <div class="about-grid">
     <div class="about-card">
       <div class="about-icon">🔥</div>
-      <h3>Готовим на углях</h3>
-      <p>Только живой огонь и настоящие угли. Никаких газовых горелок — каждый шашлык приобретает тот самый аромат, который не обманешь.</p>
+      <h3 data-i18n="about-coal-title">Μαγειρεύουμε στα κάρβουνα</h3>
+      <p data-i18n="about-coal-desc">Μόνο ζωντανή φωτιά και αληθινά κάρβουνα. Κανένα γκάζι — κάθε σουβλάκι αποκτά το άρωμα που δεν μπορείς να απατήσεις.</p>
     </div>
     <div class="about-card">
       <div class="about-icon">🥩</div>
-      <h3>Натуральное мясо</h3>
-      <p>Свежее мясо без добавок и химикатов. Свинина, курица, баранина — всё поступает ежедневно и готовится по греческим традициям.</p>
+      <h3 data-i18n="about-meat-title">Φυσικό κρέας</h3>
+      <p data-i18n="about-meat-desc">Φρέσκο κρέας χωρίς πρόσθετα και χημικά. Χοιρινό, κοτόπουλο, αρνί — φτάνουν καθημερινά και μαγειρεύονται με ελληνικές παραδόσεις.</p>
     </div>
     <div class="about-card">
       <div class="about-icon">🫙</div>
-      <h3>По греческим традициям</h3>
-      <p>Σουβλάκι — это не просто еда, это культура. Каламаки, свежая пита, йогуртовый соус — всё как у бабушки в Греции.</p>
+      <h3 data-i18n="about-tradition-title">Με ελληνικές παραδόσεις</h3>
+      <p data-i18n="about-tradition-desc">Σουβλάκι — δεν είναι απλώς φαγητό, είναι πολιτισμός. Καλαμάκι, φρέσκια πίτα, σως γιαουρτιού — όλα σαν της γιαγιάς στην Ελλάδα.</p>
     </div>
     <div class="about-card">
       <div class="about-icon">🛵</div>
-      <h3>Есть доставка</h3>
-      <p>Заказывайте через e-food и получайте горячие шашлыки прямо домой. Быстро, удобно, вкусно.</p>
+      <h3 data-i18n="about-delivery-title">Ντελίβερι διαθέσιμο</h3>
+      <p data-i18n="about-delivery-desc">Παραγγείλτε μέσω e-food και λάβετε ζεστά σουβλάκια στο σπίτι σας. Γρήγορα, εύκολα, νόστιμα.</p>
     </div>
   </div>
 </section>
 
 <section id="contact" class="contact-section">
-  <p class="section-label">КОНТАКТЫ</p>
+  <p class="section-label" data-i18n="section-contact">ΕΠΙΚΟΙΝΩΝΙΑ</p>
   <div class="contact-top">
     <div class="contact-info">
-      <p><span class="ci-icon">📍</span><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x14a1bd2752f6a189:0x35e902f1d6053e9d" target="_blank" rel="noopener">Ermou 112, Афины 105 63</a></p>
+      <p><span class="ci-icon">📍</span><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x14a1bd2752f6a189:0x35e902f1d6053e9d" target="_blank" rel="noopener">Ermou 112, Αθήνα 105 63</a></p>
       <p><span class="ci-icon">📞</span><a href="tel:+302100321052">2100 321 052</a></p>
-      <p><span class="ci-icon">🕐</span>Пн – Вс: 11:00 – 01:00</p>
-      <p><span class="ci-icon">⭐</span>4.4 / 5 &nbsp;·&nbsp; 4 254 отзыва на Google Maps</p>
+      <p><span class="ci-icon">🕐</span><span data-i18n="contact-hours-text">Δευ – Κυρ: 11:00 – 01:00</span></p>
+      <p><span class="ci-icon">⭐</span><span data-i18n="contact-reviews-text">4.4 / 5 · 4 254 αξιολογήσεις στο Google Maps</span></p>
     </div>
     <div class="contact-social">
         <a href="https://www.instagram.com/oelvis.peristeri" class="social-circle" target="_blank" rel="noopener" aria-label="Instagram">
@@ -327,19 +442,60 @@
     </a>
   </div>
   <div class="footer-logo">Ο <span>ΕΛΒΙΣ</span></div>
-  <p class="copyright">© 2025 Ο Έλβις · Ermou 112, Афины</p>
+  <p class="copyright" data-i18n="footer-copyright">© 2025 Ο Έλβις · Ermou 112, Αθήνα</p>
 </footer>
 
+<script src="js/i18n.js"></script>
 <script>
 (function(){
+  // Slideshow
   var slides = document.querySelectorAll('.menu-bg-slide');
-  if(slides.length < 2) return;
-  var cur = 0;
-  setInterval(function(){
-    slides[cur].classList.remove('active');
-    cur = (cur + 1) % slides.length;
-    slides[cur].classList.add('active');
-  }, 7000);
+  if(slides.length >= 2){
+    var cur = 0;
+    setInterval(function(){
+      slides[cur].classList.remove('active');
+      cur = (cur + 1) % slides.length;
+      slides[cur].classList.add('active');
+    }, 7000);
+  }
+
+  // Language switcher
+  var LANGS = window.ELVIS_LANGS;
+  function applyLang(lang){
+    var t = LANGS[lang];
+    if(!t) return;
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var key = el.getAttribute('data-i18n');
+      if(t[key] !== undefined) el.textContent = t[key];
+    });
+    document.querySelectorAll('.lang-option').forEach(function(btn){
+      btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    });
+    document.body.setAttribute('data-lang', lang);
+    localStorage.setItem('elvisLang', lang);
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    var saved = localStorage.getItem('elvisLang') || 'el';
+    applyLang(saved);
+
+    var langBtn = document.getElementById('langBtn');
+    var langDropdown = document.getElementById('langDropdown');
+    if(langBtn) langBtn.addEventListener('click', function(e){
+      e.stopPropagation();
+      langDropdown.classList.toggle('open');
+    });
+    document.addEventListener('click', function(){
+      if(langDropdown) langDropdown.classList.remove('open');
+    });
+    document.querySelectorAll('.lang-option').forEach(function(btn){
+      btn.addEventListener('click', function(e){
+        e.stopPropagation();
+        applyLang(this.getAttribute('data-lang'));
+        langDropdown.classList.remove('open');
+      });
+    });
+  });
 })();
 </script>
 </body>

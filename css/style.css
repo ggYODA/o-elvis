@@ -206,4 +206,30 @@ a { color: inherit; text-decoration: none; }
   .menu-info { min-height: 78px; }
   .menu-content { padding: 32px 14px 48px; }
   .menu-bg-overlay::before, .menu-bg-overlay::after { display: none; }
+  .lang-dropdown { right: auto; left: 0; }
 }
+
+/* ── LANG SWITCHER ── */
+.lang-switcher { position: relative; }
+.lang-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px;
+  background: none; border: 1.5px solid #333; border-radius: 50%;
+  color: #ccc; cursor: pointer; transition: border-color .2s, color .2s;
+}
+.lang-btn:hover { border-color: var(--red); color: var(--red); }
+.lang-dropdown {
+  display: none; position: absolute; top: calc(100% + 8px); right: 0;
+  background: #111; border: 1px solid #222;
+  min-width: 190px; z-index: 200;
+  flex-direction: column; box-shadow: 0 4px 16px rgba(0,0,0,.5);
+}
+.lang-dropdown.open { display: flex; }
+.lang-option {
+  background: none; border: none; color: #aaa;
+  padding: 9px 14px; text-align: left;
+  font-size: 0.75rem; cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.lang-option:hover { background: rgba(204,26,26,.12); color: var(--white); }
+.lang-option.active { color: var(--red); }
