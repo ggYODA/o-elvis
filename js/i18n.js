@@ -1,4 +1,4 @@
-// ============================================================
+﻿// ============================================================
 // Ο Έλβις — Full i18n Translation System
 // ============================================================
 window.ELVIS_LANGS = {
@@ -14,7 +14,7 @@ window.ELVIS_LANGS = {
     'hero-desc': 'Μαγειρεύουμε στα κάρβουνα — μόνο σχάρα, μόνο γεύση',
     'hero-order-btn': 'Παραγγελία με Ντελίβερι',
     // INFO STRIP
-    'info-reviews': '⭐ 4.4 · 4 254 αξιολογήσεις στο Google',
+    'info-reviews': '⭐ 4.3 · 115 αξιολογήσεις στο Google',
     'info-grill': '🔥 Στα κάρβουνα · Γρήγορα · Φρέσκα',
     'info-hours': '🕐 Καθημερινά 11:00 – 01:00',
     // MENU SECTION
@@ -75,9 +75,9 @@ window.ELVIS_LANGS = {
     // CONTACT
     'section-contact': 'ΕΠΙΚΟΙΝΩΝΙΑ',
     'contact-hours-text': 'Δευ – Κυρ: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4 254 αξιολογήσεις στο Google Maps',
+    'contact-reviews-text': '4.3 / 5 · 115 αξιολογήσεις στο Google Maps',
     // FOOTER
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Αθήνα',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
   },
 
   // ── ARMENIAN ──────────────────────────────────────────────
@@ -89,7 +89,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Սուվլաքի · Կալամաքի · Քյաբաբ',
     'hero-desc': 'Պատրաստում ենք կրակածու վրա — միայն գրիլ, միայն համ',
     'hero-order-btn': 'Պատվիրել առաքումով',
-    'info-reviews': '⭐ 4.4 · 4 254 կարծիք Google-ում',
+    'info-reviews': '⭐ 4.3 · 115 կարծիք Google-ում',
     'info-grill': '🔥 Կրակածու · Արագ · Թարմ',
     'info-hours': '🕐 Ամեն օր 11:00 – 01:00',
     'section-menu': 'ՃԱՇԱՑՈՒՑԱԿ',
@@ -144,8 +144,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Պատվիրեք e-food-ի միջոցով և ստացեք տաք շաշլիկ ուղղակի տուն: Արագ, հարմար, համեղ:',
     'section-contact': 'ԿԱՊ',
     'contact-hours-text': 'Երկ – Կիր: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4 254 կարծիք Google Maps-ում',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Աթենք',
+    'contact-reviews-text': '4.3 / 5 · 115 կարծիք Google Maps-ում',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
   },
 
   // ── ENGLISH ───────────────────────────────────────────────
@@ -157,7 +157,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Souvlaki · Kalamaki · Kebab',
     'hero-desc': 'Charcoal-grilled — pure fire, pure taste',
     'hero-order-btn': 'Order Delivery',
-    'info-reviews': '⭐ 4.4 · 4,254 reviews on Google',
+    'info-reviews': '⭐ 4.3 · 115 reviews on Google',
     'info-grill': '🔥 Charcoal · Fast · Fresh',
     'info-hours': '🕐 Daily 11:00 – 01:00',
     'section-menu': 'MENU',
@@ -212,8 +212,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Order on e-food and get hot skewers delivered to your door. Fast, convenient, delicious.',
     'section-contact': 'CONTACT',
     'contact-hours-text': 'Mon – Sun: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4,254 reviews on Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Athens',
+    'contact-reviews-text': '4.3 / 5 · 115 reviews on Google Maps',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
   },
 
   // ── RUSSIAN ───────────────────────────────────────────────
@@ -225,7 +225,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Сувлаки · Каламаки · Кебаб',
     'hero-desc': 'Готовим на углях — только гриль, только вкус',
     'hero-order-btn': 'Заказать с доставкой',
-    'info-reviews': '⭐ 4.4 · 4 254 отзыва на Google',
+    'info-reviews': '⭐ 4.3 · 115 отзыва на Google',
     'info-grill': '🔥 На углях · Быстро · Свежо',
     'info-hours': '🕐 Ежедневно 11:00 – 01:00',
     'section-menu': 'МЕНЮ',
@@ -280,8 +280,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Заказывайте через e-food и получайте горячие шашлыки прямо домой. Быстро, удобно, вкусно.',
     'section-contact': 'КОНТАКТЫ',
     'contact-hours-text': 'Пн – Вс: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4 254 отзыва на Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Афины',
+    'contact-reviews-text': '4.3 / 5 · 115 отзыва на Google Maps',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
   },
 
   // ── GERMAN ────────────────────────────────────────────────
@@ -293,7 +293,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Souvlaki · Kalamaki · Kebab',
     'hero-desc': 'Holzkohlengegrillt — nur Feuer, nur Geschmack',
     'hero-order-btn': 'Lieferung bestellen',
-    'info-reviews': '⭐ 4.4 · 4.254 Bewertungen auf Google',
+    'info-reviews': '⭐ 4.3 · 115 Bewertungen auf Google',
     'info-grill': '🔥 Holzkohle · Schnell · Frisch',
     'info-hours': '🕐 Täglich 11:00 – 01:00',
     'section-menu': 'SPEISEKARTE',
@@ -348,8 +348,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Bestellen Sie über e-food und erhalten Sie heiße Spieße direkt nach Hause. Schnell, bequem, lecker.',
     'section-contact': 'KONTAKT',
     'contact-hours-text': 'Mo – So: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4.254 Bewertungen auf Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Athen',
+    'contact-reviews-text': '4.3 / 5 · 115 Bewertungen auf Google Maps',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri,
   },
 
   // ── FRENCH ────────────────────────────────────────────────
@@ -361,7 +361,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Souvlaki · Kalamaki · Kebab',
     'hero-desc': 'Grillé au charbon — uniquement le feu, uniquement le goût',
     'hero-order-btn': 'Commander une livraison',
-    'info-reviews': '⭐ 4.4 · 4 254 avis sur Google',
+    'info-reviews': '⭐ 4.3 · 115 avis sur Google',
     'info-grill': '🔥 Charbon · Rapide · Frais',
     'info-hours': '🕐 Tous les jours 11:00 – 01:00',
     'section-menu': 'MENU',
@@ -416,8 +416,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Commandez via e-food et recevez des brochettes chaudes directement chez vous. Rapide, pratique, délicieux.',
     'section-contact': 'CONTACT',
     'contact-hours-text': 'Lun – Dim : 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4 254 avis sur Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Athènes',
+    'contact-reviews-text': '4.3 / 5 · 115 avis sur Google Maps',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
   },
 
   // ── SPANISH ───────────────────────────────────────────────
@@ -429,7 +429,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Souvlaki · Kalamaki · Kebab',
     'hero-desc': 'A la brasa — solo fuego, solo sabor',
     'hero-order-btn': 'Pedir a domicilio',
-    'info-reviews': '⭐ 4.4 · 4.254 reseñas en Google',
+    'info-reviews': '⭐ 4.3 · 115 reseñas en Google',
     'info-grill': '🔥 A la brasa · Rápido · Fresco',
     'info-hours': '🕐 Todos los días 11:00 – 01:00',
     'section-menu': 'MENÚ',
@@ -484,8 +484,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Pide en e-food y recibe pinchos calientes en tu puerta. Rápido, cómodo, delicioso.',
     'section-contact': 'CONTACTO',
     'contact-hours-text': 'Lun – Dom: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4.254 reseñas en Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Atenas',
+    'contact-reviews-text': '4.3 / 5 · 115 reseñas en Google Maps',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
   },
 
   // ── ROMANIAN ──────────────────────────────────────────────
@@ -497,7 +497,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Souvlaki · Kalamaki · Kebab',
     'hero-desc': 'Gătit pe cărbuni — doar grătar, doar gust',
     'hero-order-btn': 'Comandă cu livrare',
-    'info-reviews': '⭐ 4.4 · 4.254 recenzii pe Google',
+    'info-reviews': '⭐ 4.3 · 115 recenzii pe Google',
     'info-grill': '🔥 Cărbuni · Rapid · Proaspăt',
     'info-hours': '🕐 Zilnic 11:00 – 01:00',
     'section-menu': 'MENIU',
@@ -552,8 +552,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Comandați prin e-food și primiți frigărui fierbinți direct acasă. Rapid, comod, delicios.',
     'section-contact': 'CONTACT',
     'contact-hours-text': 'Lun – Dum: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4.254 recenzii pe Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Atena',
+    'contact-reviews-text': '4.3 / 5 · 115 recenzii pe Google Maps',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri,
   },
 
   // ── UKRAINIAN ─────────────────────────────────────────────
@@ -565,7 +565,7 @@ window.ELVIS_LANGS = {
     'hero-sub': 'Сувлаки · Каламакі · Кебаб',
     'hero-desc': 'Готуємо на вугіллі — тільки гриль, тільки смак',
     'hero-order-btn': 'Замовити з доставкою',
-    'info-reviews': '⭐ 4.4 · 4 254 відгуки на Google',
+    'info-reviews': '⭐ 4.3 · 115 відгуки на Google',
     'info-grill': '🔥 На вугіллі · Швидко · Свіжо',
     'info-hours': '🕐 Щодня 11:00 – 01:00',
     'section-menu': 'МЕНЮ',
@@ -620,8 +620,8 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Замовляйте через e-food і отримуйте гарячі шашлики прямо додому. Швидко, зручно, смачно.',
     'section-contact': 'КОНТАКТИ',
     'contact-hours-text': 'Пн – Нд: 11:00 – 01:00',
-    'contact-reviews-text': '4.4 / 5 · 4 254 відгуки на Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Ermou 112, Афіни',
+    'contact-reviews-text': '4.3 / 5 · 115 відгуки на Google Maps',
+    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
   },
 
 };
