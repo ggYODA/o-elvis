@@ -16,7 +16,7 @@ window.ELVIS_LANGS = {
     // INFO STRIP
     'info-reviews': '⭐ 4.3 · 115 αξιολογήσεις στο Google',
     'info-grill': '🔥 Στα κάρβουνα · Γρήγορα · Φρέσκα',
-    'info-hours': '🕐 Καθημερινά 11:00 – 01:00',
+    'info-hours': '🕐 Καθημερινά 12:00 – 02:00',
     // MENU SECTION
     'section-menu': 'ΜΕΝΟΥ',
     'cat-skewers': 'Σουβλάκια',
@@ -74,10 +74,10 @@ window.ELVIS_LANGS = {
     'about-delivery-desc': 'Παραγγείλτε μέσω e-food και λάβετε ζεστά σουβλάκια στο σπίτι σας. Γρήγορα, εύκολα, νόστιμα.',
     // CONTACT
     'section-contact': 'ΕΠΙΚΟΙΝΩΝΙΑ',
-    'contact-hours-text': 'Δευ – Κυρ: 11:00 – 01:00',
+    'contact-hours-text': 'Δευ – Κυρ: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 αξιολογήσεις στο Google Maps',
     // FOOTER
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
   },
 
   // ── ARMENIAN ──────────────────────────────────────────────
@@ -91,7 +91,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Պատվիրել առաքումով',
     'info-reviews': '⭐ 4.3 · 115 կարծիք Google-ում',
     'info-grill': '🔥 Կրակածու · Արագ · Թարմ',
-    'info-hours': '🕐 Ամեն օր 11:00 – 01:00',
+    'info-hours': '🕐 Ամեն օր 12:00 – 02:00',
     'section-menu': 'ՃԱՇԱՑՈՒՑԱԿ',
     'cat-skewers': 'Շաշլիկ',
     'cat-portions': 'Բաժիններ',
@@ -143,9 +143,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Առաքում կա',
     'about-delivery-desc': 'Պատվիրեք e-food-ի միջոցով և ստացեք տաք շաշլիկ ուղղակի տուն: Արագ, հարմար, համեղ:',
     'section-contact': 'ԿԱՊ',
-    'contact-hours-text': 'Երկ – Կիր: 11:00 – 01:00',
+    'contact-hours-text': 'Երկ – Կիր: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 կարծիք Google Maps-ում',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
   },
 
   // ── ENGLISH ───────────────────────────────────────────────
@@ -159,7 +159,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Order Delivery',
     'info-reviews': '⭐ 4.3 · 115 reviews on Google',
     'info-grill': '🔥 Charcoal · Fast · Fresh',
-    'info-hours': '🕐 Daily 11:00 – 01:00',
+    'info-hours': '🕐 Daily 12:00 – 02:00',
     'section-menu': 'MENU',
     'cat-skewers': 'Skewers',
     'cat-portions': 'Portions',
@@ -211,9 +211,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Delivery Available',
     'about-delivery-desc': 'Order on e-food and get hot skewers delivered to your door. Fast, convenient, delicious.',
     'section-contact': 'CONTACT',
-    'contact-hours-text': 'Mon – Sun: 11:00 – 01:00',
+    'contact-hours-text': 'Mon – Sun: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 reviews on Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
   },
 
   // ── RUSSIAN ───────────────────────────────────────────────
@@ -227,7 +227,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Заказать с доставкой',
     'info-reviews': '⭐ 4.3 · 115 отзыва на Google',
     'info-grill': '🔥 На углях · Быстро · Свежо',
-    'info-hours': '🕐 Ежедневно 11:00 – 01:00',
+    'info-hours': '🕐 Ежедневно 12:00 – 02:00',
     'section-menu': 'МЕНЮ',
     'cat-skewers': 'Шашлыки',
     'cat-portions': 'Порции',
@@ -279,9 +279,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Есть доставка',
     'about-delivery-desc': 'Заказывайте через e-food и получайте горячие шашлыки прямо домой. Быстро, удобно, вкусно.',
     'section-contact': 'КОНТАКТЫ',
-    'contact-hours-text': 'Пн – Вс: 11:00 – 01:00',
+    'contact-hours-text': 'Пн – Вс: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 отзыва на Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
   },
 
   // ── GERMAN ────────────────────────────────────────────────
@@ -295,7 +295,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Lieferung bestellen',
     'info-reviews': '⭐ 4.3 · 115 Bewertungen auf Google',
     'info-grill': '🔥 Holzkohle · Schnell · Frisch',
-    'info-hours': '🕐 Täglich 11:00 – 01:00',
+    'info-hours': '🕐 Täglich 12:00 – 02:00',
     'section-menu': 'SPEISEKARTE',
     'cat-skewers': 'Spieße',
     'cat-portions': 'Portionen',
@@ -347,9 +347,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Lieferung verfügbar',
     'about-delivery-desc': 'Bestellen Sie über e-food und erhalten Sie heiße Spieße direkt nach Hause. Schnell, bequem, lecker.',
     'section-contact': 'KONTAKT',
-    'contact-hours-text': 'Mo – So: 11:00 – 01:00',
+    'contact-hours-text': 'Mo – So: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 Bewertungen auf Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri,
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι,
   },
 
   // ── FRENCH ────────────────────────────────────────────────
@@ -363,7 +363,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Commander une livraison',
     'info-reviews': '⭐ 4.3 · 115 avis sur Google',
     'info-grill': '🔥 Charbon · Rapide · Frais',
-    'info-hours': '🕐 Tous les jours 11:00 – 01:00',
+    'info-hours': '🕐 Tous les jours 12:00 – 02:00',
     'section-menu': 'MENU',
     'cat-skewers': 'Brochettes',
     'cat-portions': 'Portions',
@@ -415,9 +415,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Livraison disponible',
     'about-delivery-desc': 'Commandez via e-food et recevez des brochettes chaudes directement chez vous. Rapide, pratique, délicieux.',
     'section-contact': 'CONTACT',
-    'contact-hours-text': 'Lun – Dim : 11:00 – 01:00',
+    'contact-hours-text': 'Lun – Dim : 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 avis sur Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
   },
 
   // ── SPANISH ───────────────────────────────────────────────
@@ -431,7 +431,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Pedir a domicilio',
     'info-reviews': '⭐ 4.3 · 115 reseñas en Google',
     'info-grill': '🔥 A la brasa · Rápido · Fresco',
-    'info-hours': '🕐 Todos los días 11:00 – 01:00',
+    'info-hours': '🕐 Todos los días 12:00 – 02:00',
     'section-menu': 'MENÚ',
     'cat-skewers': 'Pinchos',
     'cat-portions': 'Porciones',
@@ -483,9 +483,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Entrega disponible',
     'about-delivery-desc': 'Pide en e-food y recibe pinchos calientes en tu puerta. Rápido, cómodo, delicioso.',
     'section-contact': 'CONTACTO',
-    'contact-hours-text': 'Lun – Dom: 11:00 – 01:00',
+    'contact-hours-text': 'Lun – Dom: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 reseñas en Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
   },
 
   // ── ROMANIAN ──────────────────────────────────────────────
@@ -499,7 +499,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Comandă cu livrare',
     'info-reviews': '⭐ 4.3 · 115 recenzii pe Google',
     'info-grill': '🔥 Cărbuni · Rapid · Proaspăt',
-    'info-hours': '🕐 Zilnic 11:00 – 01:00',
+    'info-hours': '🕐 Zilnic 12:00 – 02:00',
     'section-menu': 'MENIU',
     'cat-skewers': 'Frigărui',
     'cat-portions': 'Porții',
@@ -551,9 +551,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Livrare disponibilă',
     'about-delivery-desc': 'Comandați prin e-food și primiți frigărui fierbinți direct acasă. Rapid, comod, delicios.',
     'section-contact': 'CONTACT',
-    'contact-hours-text': 'Lun – Dum: 11:00 – 01:00',
+    'contact-hours-text': 'Lun – Dum: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 recenzii pe Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri,
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι,
   },
 
   // ── UKRAINIAN ─────────────────────────────────────────────
@@ -567,7 +567,7 @@ window.ELVIS_LANGS = {
     'hero-order-btn': 'Замовити з доставкою',
     'info-reviews': '⭐ 4.3 · 115 відгуки на Google',
     'info-grill': '🔥 На вугіллі · Швидко · Свіжо',
-    'info-hours': '🕐 Щодня 11:00 – 01:00',
+    'info-hours': '🕐 Щодня 12:00 – 02:00',
     'section-menu': 'МЕНЮ',
     'cat-skewers': 'Шашлики',
     'cat-portions': 'Порції',
@@ -619,9 +619,9 @@ window.ELVIS_LANGS = {
     'about-delivery-title': 'Є доставка',
     'about-delivery-desc': 'Замовляйте через e-food і отримуйте гарячі шашлики прямо додому. Швидко, зручно, смачно.',
     'section-contact': 'КОНТАКТИ',
-    'contact-hours-text': 'Пн – Нд: 11:00 – 01:00',
+    'contact-hours-text': 'Пн – Нд: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 відгуки на Google Maps',
-    'footer-copyright': '© 2025 Ο Έλβις · Emiliou Veaki 40, Peristeri',
+    'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
   },
 
 };
