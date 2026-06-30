@@ -78,6 +78,7 @@ window.ELVIS_LANGS = {
     'contact-reviews-text': '4.3 / 5 · 115 αξιολογήσεις στο Google Maps',
     // FOOTER
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
+    'map-directions': 'Οδηγίες',
   },
 
   // ── ARMENIAN ──────────────────────────────────────────────
@@ -146,6 +147,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Երկ – Կիր: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 կարծիք Google Maps-ում',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
+    'map-directions': 'Երթուղի',
   },
 
   // ── ENGLISH ───────────────────────────────────────────────
@@ -214,6 +216,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Mon – Sun: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 reviews on Google Maps',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
+    'map-directions': 'Directions',
   },
 
   // ── RUSSIAN ───────────────────────────────────────────────
@@ -282,6 +285,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Пн – Вс: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 отзыва на Google Maps',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
+    'map-directions': 'Маршрут',
   },
 
   // ── GERMAN ────────────────────────────────────────────────
@@ -350,6 +354,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Mo – So: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 Bewertungen auf Google Maps',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι,
+    'map-directions': 'Route',
   },
 
   // ── FRENCH ────────────────────────────────────────────────
@@ -418,6 +423,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Lun – Dim : 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 avis sur Google Maps',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
+    'map-directions': 'Itinéraire',
   },
 
   // ── SPANISH ───────────────────────────────────────────────
@@ -486,6 +492,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Lun – Dom: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 reseñas en Google Maps',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
+    'map-directions': 'Ruta',
   },
 
   // ── ROMANIAN ──────────────────────────────────────────────
@@ -554,6 +561,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Lun – Dum: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 recenzii pe Google Maps',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι,
+    'map-directions': 'Rută',
   },
 
   // ── UKRAINIAN ─────────────────────────────────────────────
@@ -622,6 +630,7 @@ window.ELVIS_LANGS = {
     'contact-hours-text': 'Пн – Нд: 12:00 – 02:00',
     'contact-reviews-text': '4.3 / 5 · 115 відгуки на Google Maps',
     'footer-copyright': '© 2025 Ο Έλβις · Αιμιλίου Βεάκη 40, Περιστέρι',
+    'map-directions': 'Маршрут',
   },
 
 };

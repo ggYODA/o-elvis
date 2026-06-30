@@ -15,23 +15,23 @@
     <a href="#about" data-i18n="nav-about">Σχετικά</a>
     <a href="#contact" data-i18n="nav-contact">Επικοινωνία</a>
   </nav>
-  <div class="lang-switcher" id="langSwitcher">
-    <button class="lang-btn" id="langBtn" aria-label="Language" title="Αλλαγή γλώσσας / Change language">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-    </button>
-    <div class="lang-dropdown" id="langDropdown">
-      <button class="lang-option active" data-lang="el">🇬🇷 Ελληνικά</button>
-      <button class="lang-option" data-lang="hy">🇦🇲 Հայերեն</button>
-      <button class="lang-option" data-lang="en">🇬🇧 English</button>
-      <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
-      <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
-      <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
-      <button class="lang-option" data-lang="es">🇪🇸 Español</button>
-      <button class="lang-option" data-lang="ro">🇷🇴 Română</button>
-      <button class="lang-option" data-lang="uk">🇺🇦 Українська</button>
-    </div>
-  </div>
   <div class="header-actions">
+    <div class="lang-switcher" id="langSwitcher">
+      <button class="lang-btn" id="langBtn" aria-label="Language" title="Αλλαγή γλώσσας / Change language">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      </button>
+      <div class="lang-dropdown" id="langDropdown">
+        <button class="lang-option active" data-lang="el">🇬🇷 Ελληνικά</button>
+        <button class="lang-option" data-lang="hy">🇦🇲 Հայերեն</button>
+        <button class="lang-option" data-lang="en">🇬🇧 English</button>
+        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+        <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+        <button class="lang-option" data-lang="ro">🇷🇴 Română</button>
+        <button class="lang-option" data-lang="uk">🇺🇦 Українська</button>
+      </div>
+    </div>
     <a href="https://www.e-food.gr/delivery/menu/o-elvis" class="btn-order" target="_blank" rel="noopener" data-i18n="nav-order">Παραγγελία</a>
     <a href="https://www.instagram.com/oelvis.peristeri" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
@@ -426,7 +426,7 @@
       <div class="map-card-name">Ο <span>ΕΛΒΙΣ</span></div>
       <div class="map-card-addr">Αιμιλίου Βεάκη 40, Περιστέρι 121 34</div>
       <div class="map-card-phone">📞 <a href="tel:+302105719500">2105 719 500</a></div>
-      <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x14a1a3387ab78d0f:0x96e43e83eb8ac925" target="_blank" rel="noopener" class="map-card-btn">📍 Οδηγίες</a>
+      <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x14a1a3387ab78d0f:0x96e43e83eb8ac925" target="_blank" rel="noopener" class="map-card-btn">📍 <span data-i18n="map-directions">Οδηγίες</span></a>
     </div>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d800!2d23.689!3d38.001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a3387ab78d0f%3A0x96e43e83eb8ac925!2sO%20Elvis%2C%20Emiliou%20Veaki%2040%2C%20Peristeri%20121%2034!5e0!3m2!1sel!2sgr!4v1719600000000!5m2!1sel!2sgr"
@@ -466,7 +466,7 @@
   }
 
   // Language switcher
-  var LANGS = window.ELVIS_LANGS;
+  var LANGS = window.ELVIS_LANGS || {};
   function applyLang(lang){
     var t = LANGS[lang];
     if(!t) return;
