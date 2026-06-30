@@ -465,8 +465,9 @@
     }, 7000);
   }
 
-  // Language switcher
+  // Language switcher — script is at bottom of body, DOM already ready
   var LANGS = window.ELVIS_LANGS || {};
+
   function applyLang(lang){
     var t = LANGS[lang];
     if(!t) return;
@@ -481,25 +482,30 @@
     localStorage.setItem('elvisLang', lang);
   }
 
-  document.addEventListener('DOMContentLoaded', function(){
-    var saved = localStorage.getItem('elvisLang') || 'el';
-    applyLang(saved);
+  // Init
+  applyLang(localStorage.getItem('elvisLang') || 'el');
 
-    var langBtn = document.getElementById('langBtn');
-    var langDropdown = document.getElementById('langDropdown');
-    if(langBtn) langBtn.addEventListener('click', function(e){
+  // Globe button toggle
+  var langBtn = document.getElementById('langBtn');
+  var langDropdown = document.getElementById('langDropdown');
+  if(langBtn){
+    langBtn.addEventListener('click', function(e){
       e.stopPropagation();
       langDropdown.classList.toggle('open');
     });
-    document.addEventListener('click', function(){
+  }
+
+  // Close on outside click
+  document.addEventListener('click', function(){
+    if(langDropdown) langDropdown.classList.remove('open');
+  });
+
+  // Language option click
+  document.querySelectorAll('.lang-option').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      applyLang(this.getAttribute('data-lang'));
       if(langDropdown) langDropdown.classList.remove('open');
-    });
-    document.querySelectorAll('.lang-option').forEach(function(btn){
-      btn.addEventListener('click', function(e){
-        e.stopPropagation();
-        applyLang(this.getAttribute('data-lang'));
-        langDropdown.classList.remove('open');
-      });
     });
   });
 })();
